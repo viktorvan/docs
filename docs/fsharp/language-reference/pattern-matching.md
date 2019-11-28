@@ -81,7 +81,7 @@ You can use the named fields in a pattern matching expression as follows.
 ```fsharp
 let matchShape shape =
     match shape with
-    | Rectangle(height = h) -> printfn "Rectangle with length %f" h
+    | Rectangle(height = h) -> printfn "Rectangle with height %f" h
     | Circle(r) -> printfn "Circle with radius %f" r
 ```
 
